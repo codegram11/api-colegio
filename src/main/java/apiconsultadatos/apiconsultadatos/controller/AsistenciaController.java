@@ -8,19 +8,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import sun.util.resources.LocaleData;
-
-import java.io.IOException;
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
+
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+
 import java.util.Date;
-import java.util.Locale;
+
 import java.util.Optional;
-import java.util.TimeZone;
+
 
 @RestController
 @RequestMapping(value = "/api-asistencia")
